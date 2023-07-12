@@ -1,3 +1,3 @@
 # Advent of Code
 
-Just going through the advent of code puzzles
+Just going through the [Advent of Code](https://adventofcode.com/) puzzles
