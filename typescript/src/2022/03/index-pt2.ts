@@ -366,3 +366,5 @@ const answer = allGroupItemPriorities.reduce(
     0
 );
 console.log(answer);
+
+export {};

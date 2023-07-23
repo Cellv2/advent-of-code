@@ -346,3 +346,5 @@ const answer = allRucksackItemPriorities.reduce(
     0
 );
 console.log(answer);
+
+export {};

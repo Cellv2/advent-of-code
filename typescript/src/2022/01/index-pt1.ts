@@ -2240,12 +2240,12 @@ const arr: string[] = input.split("\n\n");
 const totals: number[] = arr.map((item) =>
     item.split("\n").reduce((total, current) => total + +current, 0)
 );
-const topThree: number[] = totals.sort((a, b) => a - b).slice(-3);
+const answer: number | undefined = totals.sort((a, b) => a - b).pop();
 
-if (!topThree.length) {
+if (!answer) {
     console.error("input is empty?");
 }
 
-const answer = topThree.reduce((total, current) => total + current, 0)
-
 console.log(answer);
+
+export {};
